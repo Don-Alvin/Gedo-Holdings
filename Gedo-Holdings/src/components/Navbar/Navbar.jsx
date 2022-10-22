@@ -12,7 +12,10 @@ const Navbar = () => {
       <header className='header' id='header'>
         <nav className='container nav'>
           <a href="home" className='nav__logo'>
-              <BiBuildingHouse /> <span>Gedo Holdings</span>
+              <span className="logo">
+                <BiBuildingHouse /> 
+              </span>
+              <span className='logo__title'>Gedo Holdings</span>
           </a>
 
           {/* Nav Links */}

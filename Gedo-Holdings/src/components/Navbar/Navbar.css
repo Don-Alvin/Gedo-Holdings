@@ -16,9 +16,18 @@
 }
 
 .nav__logo {
-	color: var(--primary-color);
+	color: var(--primary-color-light);
 	font-weight: 700;
 	font-size: var(--h3-font-size);
+	display: flex;
+	gap: 4px;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.logo {
+	font-size: 3rem;
 }
 
 .nav__menu {
