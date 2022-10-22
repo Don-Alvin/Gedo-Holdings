@@ -5,9 +5,9 @@
 	--primary-color: rgb(2, 25, 128);
 	--primary-color-alt: rgb(9, 50, 230);
 	--primary-color-light: rgba(2, 25, 128, 0.61);
-	--secondary-color: rgb(5, 90, 105);
+	--secondary-color: rgb(2, 50, 112);
 	--title-color: rgb(36, 35, 35);
-	--text-color: rgb(110, 110, 110);
+	--text-color: rgba(31, 26, 26, 0.808);
 
 	/* ====== FONT AND TYPOGRAPHY ======*/
 	--body-font: "Montserrat", sans-serif;

@@ -44,8 +44,9 @@
 
 .nav__item a {
 	text-transform: capitalize;
-	color: var(--text-color);
+	color: var(--primary-color-light);
 	font-size: var(--normal-font-size);
+	font-weight: 500;
 }
 
 .subscribe-and-toggle {

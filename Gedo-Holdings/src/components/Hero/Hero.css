@@ -1,0 +1,78 @@
+.home {
+	display: grid;
+	height: 80vh;
+	width: 100%;
+	background-image: url("../../assets/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.home__container {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.home__data {
+	display: grid;
+	gap: 10px;
+}
+
+.home__title {
+	font-size: var(--h1-font-size);
+	font-weight: 700;
+	color: var(--text-color);
+	text-align: center;
+}
+
+.home__description {
+	font-size: var(--normal-font-size);
+	color: rgba(31, 26, 26, 0.808);
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+}
+
+.projects-services__home-link {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.works,
+.services {
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.works:hover,
+.services:hover {
+	background-color: var(--primary-color-light);
+	border: none;
+}
+
+.works h3,
+.services h3 {
+	color: #fff;
+}
+
+.home__button {
+	color: #fff;
+	background-color: var(--primary-color-alt);
+	width: 18%;
+	text-align: center;
+	padding: 5px;
+	border-radius: 3px;
+	justify-self: center;
+}
+
+.home__button:hover {
+	background-color: var(--primary-color-light);
+}
+
+.subscribe__description {
+	color: #fff;
+	text-align: center;
+}
