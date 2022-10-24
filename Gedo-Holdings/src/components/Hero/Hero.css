@@ -61,7 +61,7 @@
 .home__button {
 	color: #fff;
 	background-color: var(--primary-color-alt);
-	width: 18%;
+	width: fit;
 	text-align: center;
 	padding: 5px;
 	border-radius: 3px;

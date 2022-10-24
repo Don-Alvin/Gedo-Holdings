@@ -19,7 +19,7 @@ const Hero = () => {
               <h3>Services</h3>
             </a>
           </div>
-          <a href='#' className='button home__button'>Subscribe</a>
+          <a href='#' className='button home__button'>Partner with us</a>
           <p className='subscribe__description'>Get the latest construction news and trends in the market</p>
         </div>
       </div>

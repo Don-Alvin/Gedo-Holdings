@@ -15,6 +15,11 @@ export default {
 			type: "string",
 		},
 		{
+			name: "status",
+			title: "Status",
+			type: "string",
+		},
+		{
 			name: "projectLink",
 			title: "Project Link",
 			type: "string",

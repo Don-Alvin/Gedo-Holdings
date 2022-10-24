@@ -21,19 +21,19 @@ const About = () => {
             <div className="about__descrition-services-main">
               <div className="site-approvals">
                 <h3 className="site-approvals-title">Site Approvals</h3>
-                <img src="../../assets/Siteapprovals.png" alt="site-approvals" />
+                <img src="../../src/assets/Siteapprovals.png" alt="site-approvals" />
               </div>
               <div className="renovation">
-                <h3 className="renovation">Renovation</h3>
-                <img src="../../assets/Renovations.png" alt="renovation" />
+                <h3 className="renovation-title">Renovation</h3>
+                <img src="../../src/assets/Renovations.png" alt="renovation" />
               </div>
               <div className="construction">
                 <h3 className="construction-title">Construction</h3>
-                <img src="../../assets/Construction.png" alt="construction" />
+                <img src="../../src/assets/Construction.png" alt="construction" />
               </div>
               <div className="architecture">
-                <h3 className="architecture">Architecture</h3>
-                <img src="../../assets/Architecture.png" alt="architecture" />
+                <h3 className="architecture-title">Architecture</h3>
+                <img src="../../src/assets/Architecture.png" alt="architecture" />
               </div>
             </div>
           </div>
