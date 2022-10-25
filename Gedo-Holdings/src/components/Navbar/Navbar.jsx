@@ -5,11 +5,21 @@ import { FaInstagramSquare } from 'react-icons/fa'
 import { FaStream } from 'react-icons/fa'
 
 import './Navbar.css'
+import { useState } from 'react'
 
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false)
+
+  const changeBackground = () => {
+    if (window.scrollY >= 50) {
+      setNavbar(true)
+    }else setNavbar(false)
+  }
+
+  window.addEventListener('scroll', changeBackground)
+
   return (
-    <div className='navbar'>
-      <header className='header' id='header'>
+    <div className={navbar ? 'navbar navbar-active' : 'navbar'}>
         <nav className='container nav'>
           <a href="home" className='nav__logo'>
               <span className="logo">
@@ -37,7 +47,6 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-      </header>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-.header {
+.navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -6,6 +6,19 @@
 	background: transparent;
 	z-index: var(--z-fixed);
 	transition: 0.4s;
+}
+
+.navbar-active {
+	background-color: #fff;
+}
+
+.navbar-active .nav__logo,
+.navbar-active .nav__item a {
+	color: var(--primary-color);
+}
+
+.navbar-active .nav__item:hover {
+	border-bottom: 2px solid var(--primary-color);
 }
 
 .nav {
